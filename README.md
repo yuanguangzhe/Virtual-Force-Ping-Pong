@@ -25,7 +25,7 @@
 4. 탁구 라켓을 휘두르며 가속도 데이터를 수집합니다.
 5. 수집한 데이터를 python으로 FFT 및 지수 감쇄 정현파 함수 모델 분석을 수행합니다.
 6. FFT:https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/blob/main/FFT.py
-7. 지수 감쇄 정현파 함수 모델:
+7. 지수 감쇄 정현파 함수 모델:https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/blob/main/Exponential%20Decaying%20Sine%20Function%20Model.py
 
 ## 참고 자료
 
