@@ -6,7 +6,7 @@ def exponential_decay_sine(t, A, f, s):
     return A * np.sin(2 * np.pi * f * t) * np.exp(-s * t)
 
 # 读取数据
-data = np.loadtxt('one/slow1.csv', delimiter=',') 
+data = np.loadtxt('date_name.csv', delimiter=',') 
 ydata = data[:, 1]  # y 数据，例如观测值
 
 # 计算时间向量
