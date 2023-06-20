@@ -20,20 +20,28 @@
 ## 사용법
 
 1. 아두이노 우노 R3 호환 보드 CH340 DM72와 아두이노 6축 자이로센서 MPU6050 1자납땜 DM399를 라켓에 고정합니다.
-![IMG_4340](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/0280c976-e839-4fd5-886e-662e980515a1)
+<img width="400" alt="截屏2023-06-20 16 12 20" src="https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/ecabe9c6-e6d8-455f-a05d-654b71ec14bf"><br>
 2. MPU6050 센서를 아두이노 보드에 연결합니다.
 3. 프로젝트 코드를 아두이노 개발 환경에 업로드합니다.
 4. 탁구 라켓을 휘두르며 가속도 데이터를 수집합니다.
 5. 수집한 데이터를 python으로 FFT 및 지수 감쇄 정현파 함수 모델 분석을 수행합니다.
-6. FFT:https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/blob/main/FFT.py
+6. FFT:https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/blob/main/FFT.py<br>
+<center>slow<br></center>
 ![slow_频谱](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/9a2f3f73-2377-4562-ae14-5cbe12c42696)
+<center>near<br></center>
 ![near_频谱](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/d09794fb-87c0-4b91-bfc4-a1783516ea7c)
+<center>fast<br></center>
 ![fast_频谱](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/5bff803c-e5ad-479b-8e50-c67387605de7)
+<center>far<br></center>
 ![far_频谱](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/be4f0606-331f-4551-a5d8-0460612fd21c)
-7. 지수 감쇄 정현파 함수 모델:https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/blob/main/Exponential%20Decaying%20Sine%20Function%20Model.py
+8. 지수 감쇄 정현파 함수 모델:https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/blob/main/Exponential%20Decaying%20Sine%20Function%20Model.py<br>
+<center>slow<br></center>
 ![slow](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/c64dd1e9-9b2b-48bf-88e8-1a62391bd95c)
+<center>near<br></center>
 ![near](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/ff77161f-09f0-4d61-9af2-fbfdf6e82323)
+<cenetr>fast<br></cenetr>
 ![fast](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/97435947-3e75-40f0-8315-8147f25180ad)
+<center>far<br></center>
 ![far](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/af995d1c-7866-4ef6-bc9f-f4c721fe870f)
 
 ## 참고 자료
