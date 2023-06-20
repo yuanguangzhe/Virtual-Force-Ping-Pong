@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 读取数据
-data = pd.read_csv('one/slow1.csv', header=None)
+data = pd.read_csv('date_name.csv', header=None)
 time = data.iloc[:, 0].values
 acceleration = data.iloc[:, 1].values
 
