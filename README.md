@@ -26,22 +26,22 @@
 4. 탁구 라켓을 휘두르며 가속도 데이터를 수집합니다.
 5. 수집한 데이터를 python으로 FFT 및 지수 감쇄 정현파 함수 모델 분석을 수행합니다.
 6. FFT:https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/blob/main/FFT.py<br>
-<center>slow<br></center>
+slow:<br>
 ![slow_频谱](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/9a2f3f73-2377-4562-ae14-5cbe12c42696)
-<center>near<br></center>
+near:<br>
 ![near_频谱](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/d09794fb-87c0-4b91-bfc4-a1783516ea7c)
-<center>fast<br></center>
+fast:<br>
 ![fast_频谱](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/5bff803c-e5ad-479b-8e50-c67387605de7)
-<center>far<br></center>
+far:<br>
 ![far_频谱](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/be4f0606-331f-4551-a5d8-0460612fd21c)
 8. 지수 감쇄 정현파 함수 모델:https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/blob/main/Exponential%20Decaying%20Sine%20Function%20Model.py<br>
-<center>slow<br></center>
-![slow](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/c64dd1e9-9b2b-48bf-88e8-1a62391bd95c)
-<center>near<br></center>
-![near](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/ff77161f-09f0-4d61-9af2-fbfdf6e82323)
-<cenetr>fast<br></cenetr>
-![fast](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/97435947-3e75-40f0-8315-8147f25180ad)
-<center>far<br></center>
+slow:<br>
+![slow](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/c64dd1e9-9b2b-48bf-88e8-1a62391bd95c)<br>
+near:<br>
+![near](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/ff77161f-09f0-4d61-9af2-fbfdf6e82323)<br>
+fast:<br>
+![fast](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/97435947-3e75-40f0-8315-8147f25180ad)<br>
+far:<br>
 ![far](https://github.com/yuanguangzhe/Virtual-Force-Ping-Pong/assets/75521945/af995d1c-7866-4ef6-bc9f-f4c721fe870f)
 
 ## 참고 자료
